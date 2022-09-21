@@ -6,6 +6,13 @@
     color: #000000;
 }
 
+.Main {
+    background-image: url("./software-development_cnusak.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .color1 {
     background-color: #FA4753;
 }
@@ -21,3 +28,22 @@
 .color4 {
     background-color: #9ba5c9;
 }
+
+/* input {
+    all: unset;
+    background-color: white;
+    color: black;
+    border: 2px solid #eeeeee;
+    padding: 2px;
+    border-radius: 0.3rem;
+}
+
+input:hover,
+input:focus {
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border-radius: 0.3rem;
+    border-color: #000000;
+    box-shadow: none;
+} */

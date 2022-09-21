@@ -44,11 +44,11 @@ const LoginPage = () => {
                         onChange={(e) => onChangeHandler(e.target.value, "Password")}
                     />
                     <Button
-                        style={{ backgroundColor: "#9ba5c9" }}
+                        style={{ backgroundColor: "#000000" }}
                         variant="contained" className="w-full h-16" onClick={onClick} >Login</Button>
                     <Link to="/register" className="w-full h-8">
                         <Button
-                            style={{ color: "#9ba5c9" }}
+                            style={{ color: "#000000" }}
                             variant="text" className="w-full h-8">Register</Button>
                     </Link>
                 </div>

@@ -85,7 +85,7 @@ const Register = () => {
                     </div>
                     <Link to="/" className="w-full h-8 mb-16" >
                         <Button
-                            style={{ backgroundColor: "#9ba5c9", marginBottom: "1rem" }}
+                            style={{ backgroundColor: "#000000", marginBottom: "1rem" }}
                             variant="contained" className="w-full h-16" onClick={onClick} >Register</Button>
                     </Link>
                 </div>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
 
-        <div className="color2 fixed  container ml-24 mt-6 h-12 w-screen flex items-center justify-between p-8 text-white">
+        <div className="color2 sticky  container ml-24  h-12 w-screen flex items-center justify-between p-8 text-white">
             <Link className="font-Bold " style={{ fontSize: "1.5rem" }}>
                 Home
             </Link>
